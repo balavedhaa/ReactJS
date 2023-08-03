@@ -59,4 +59,3 @@ while (i<=a){
  console.log("ForEach loop")
  array=[10,20]
  array.forEach(element => {console.log(element)});
-
