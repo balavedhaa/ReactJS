@@ -75,3 +75,10 @@ for(var ele in a){
         }
     }
 }
+
+//Functions
+
+function fun_name(){
+    console.log("5"+5)
+}
+fun_name()
