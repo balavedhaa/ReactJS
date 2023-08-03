@@ -1,4 +1,4 @@
-[2:59 pm, 03/08/2023] jyothilakshmi ai&ds kct: //Array
+//Array
 
 const array = [10,20,"Vaishali",23.08,Date()]
 console.log("Before change :")
@@ -40,8 +40,19 @@ for (var ele of array){
     console.log(ele)
 }
 array.pop()
-array.pop…
-[2:59 pm, 03/08/2023] jyothilakshmi ai&ds kct: // looping, for, foreach, forin, forof while, do..while
+array.pop()
+console.log("AFTER POP:")
+
+if(array.length>0){
+    console.log("elements present")
+    for (var ele of array){
+        console.log(ele)
+    }
+} else {
+    console.log("no elements")
+}
+
+// looping, for, foreach, forin, forof while, do..while
 //lets try foreach and forin
 for(i = 0; i<a;i++){
     console.log(i)
@@ -56,7 +67,8 @@ while(i <=a){
 
 array = [10,20]
 array.forEach(element => console.log(element));
-[2:59 pm, 03/08/2023] jyothilakshmi ai&ds kct: //Objects
+
+//Objects
 
 a = {
     car: "Audi", 
