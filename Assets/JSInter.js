@@ -78,7 +78,60 @@ for(var ele in a){
 
 //Functions
 
-function fun_name(){
-    console.log("5"+5)
+//function fun_name(){
+//    console.log("5"+5)
+//}
+//fun_name()
+
+//Functions
+function fun1 (){
+    console.log("5" + 5)
 }
-fun_name()
+
+function fun2 (){
+    console.log(5 + 5 +"5")
+}
+
+function fun3 (){
+    console.log("5" + 5 + 5)
+}
+
+function fun4 (){
+    console.log(5 + 5 + " Hello " + 5 + 5)
+}
+
+fun1()
+fun2()
+fun3()
+fun4()
+
+function fun_name (a,b){
+    return((a + b + " Hi " + 5 + 5))
+}
+console.log(fun_name(2,3))
+
+a = () => {
+    console.log("Hello World")
+}
+
+//a=()=>console.log("Hello World")
+//a()
+
+a = () => {
+    console.log("Hello World")
+}
+a()
+
+class AIDS{
+    abcd = "alphabet";
+    sum(){
+        console.log("Bala")
+
+    }
+}
+a = new Object()
+a.name = AIDS
+console.log(a)
+object1 = new AIDS()
+console.log(object1.abcd)
+object1.sum()
